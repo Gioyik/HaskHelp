@@ -1,0 +1,14 @@
+name:                HaskHelp
+version:             0.1
+synopsis:            Simple Haskell helpers
+license:             MIT
+license-file:        LICENSE
+author:              Giovanny Gongora
+maintainer:          gioyik@gmail.com
+category:            Learning
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  exposed-modules:     HaskHelp  
+  build-depends:       base ==4.5.*, process==1.1.*
